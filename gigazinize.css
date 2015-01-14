@@ -33,9 +33,21 @@ article {
     margin-left: 100px;
 }
 
-h2 {
+aside h2 {
     color: #2f4f2f;
     background: #ffc;
+}
+
+figure {
+    display: table;
+}
+
+figcaption {
+    text-align: center;
+}
+
+strong {
+    font-size: 5em;
 }
 
 .date {
