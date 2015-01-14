@@ -20,6 +20,24 @@ header {
     position: relative;
 }
 
+aside {
+    width: 210px;
+    background: #f9f9ff;
+    display: table-cell;
+    vertical-align: top;
+}
+
+article {
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 100px;
+}
+
+h2 {
+    color: #2f4f2f;
+    background: #ffc;
+}
+
 .date {
     color: #6e59af;
     margin:4px 0 4px 0;
