@@ -11,6 +11,10 @@ img {
     vertical-align: bottom;
 }
 
+article img {
+    border: 1px solid #000;
+}
+
 header {
     width: 100%;
     margin: 0;
@@ -31,6 +35,7 @@ article {
     display: table-cell;
     vertical-align: top;
     margin-left: 100px;
+    padding-top: 40px;
 }
 
 aside h2 {
@@ -52,7 +57,7 @@ strong {
 
 .date {
     color: #6e59af;
-    margin:4px 0 4px 0;
+    margin: 4px 0 4px 0;
     font-weight: bold;
     position: relative;
     line-height: 1.2em;
