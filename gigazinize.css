@@ -1,0 +1,40 @@
+body {
+    background-color: #F9F9E5;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: bottom;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.date {
+    color: #6e59af;
+    margin:4px 0 4px 0;
+    font-weight: bold;
+    position: relative;
+    line-height: 1.2em;
+    font-size: 110%;
+}
+
+.title {
+    margin-top: 0;
+    color: #333;
+    background: #ffdd00;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-weight: bold;
+    font-size: 150%;
+}
