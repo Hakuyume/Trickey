@@ -62,6 +62,7 @@ a {
 
 .sidebar ul {
     padding-left: 1em;
+    list-style-type: square;
 }
 
 .sidebar a {
