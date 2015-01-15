@@ -38,10 +38,12 @@ article {
 
 iframe {
     border: 0;
+    max-width: 200px;
     height: 1000px;
 }
 
 h2 {
+    font-size: 1.2em;
     color: #2f4f2f;
     background: #ffc;
 }
