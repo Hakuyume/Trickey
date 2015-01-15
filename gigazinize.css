@@ -1,5 +1,5 @@
 body {
-    background-color: #F9F9E5;
+    background: #f9f9ff;
     margin: 0;
     padding: 0;
 }
@@ -25,20 +25,24 @@ header {
 }
 
 aside {
-    width: 210px;
-    background: #f9f9ff;
+    width: 250px;
     display: table-cell;
     vertical-align: top;
 }
 
 article {
+    background-color: #F9F9E5;
     display: table-cell;
     vertical-align: top;
-    margin-left: 100px;
     padding-top: 40px;
 }
 
-aside h2 {
+iframe {
+    border: 0;
+    height: 1000px;
+}
+
+h2 {
     color: #2f4f2f;
     background: #ffc;
 }
@@ -53,6 +57,44 @@ figcaption {
 
 strong {
     font-size: 5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar ul {
+    padding-left: 1em;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.thumb {
+    list-style-type: none;
+}
+
+.thumb li {
+    display: inline-block;
+    width: 400px;
+}
+
+.thumb figure {
+    margin: 0;
+}
+
+.thumb img {
+    max-width: 400px;
+}
+
+.thumb .tag {
+    display: inline-block;
+    float: right;
+    color: #fff;
+    background: #e03f48;
+    align-items: right;
+    border: 1px solid #000;
 }
 
 .date {
