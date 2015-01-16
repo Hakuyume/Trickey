@@ -1,7 +1,12 @@
 [
     {
 	"name": "about",
-	"title": "自由にカスタマイズ可能なキーボード「Trickey」",
+	"title": "誰でも簡単にカスタマイズ可能なキーボード「Trickey」が登場",
+	"thumb": "main_1.JPG"
+    },
+    {
+	"name": "demo",
+	"title": "組み換えキーボード「Trickey」を実際に使ってみた",
 	"thumb": "main_1.JPG"
     },
     {
@@ -11,7 +16,27 @@
     },
     {
 	"name": "illust",
-	"title": "「Trickey」を使うとペンタブ環境がこんなにすっきり",
+	"title": "絵師たちに贈る「Trickey」でペンタブ環境をすっきりさせる方法",
 	"thumb": "illust_2.JPG"
+    },
+    {
+	"name": "fullset",
+	"title": "時間切れにより実現しなかった幻の6x15フルセットボードユニット",
+	"thumb": "main_1.JPG"
+    },
+    {
+	"name": "vim",
+	"title": "「Trickey」発、憎きvimを瞬殺する「Kill vim board」",
+	"thumb": "main_1.JPG"
+    },
+    {
+	"name": "interview",
+	"title": "製作者に聞いた「Trickey」で苦労した10のこと",
+	"thumb": "main_1.JPG"
+    },
+    {
+	"name": "wot",
+	"title": "時間を忘れて出撃したくなる戦車アクション「World of Tanks」は何がそんなに面白いのかまとめ",
+	"thumb": "main_1.JPG"
     }
 ]
