@@ -25,22 +25,11 @@ header {
     position: relative;
 }
 
-aside {
-    display: table-cell;
-    vertical-align: top;
-}
-
 article {
     background-color: #F9F9E5;
     display: table-cell;
     vertical-align: top;
     padding-top: 40px;
-}
-
-iframe {
-    border: 0;
-    max-width: 200px;
-    height: 1000px;
 }
 
 figure {
@@ -58,6 +47,12 @@ strong {
 
 a {
     text-decoration: none;
+}
+
+.sidebar {
+    display: table-cell;
+    vertical-align: top;
+    width: 200px;
 }
 
 .sidebar ul {
@@ -80,6 +75,8 @@ a {
 }
 
 .thumb li {
+    margin-right: 10px;
+    margin-bottom: 10px;
     display: inline-block;
     width: 400px;
 }
