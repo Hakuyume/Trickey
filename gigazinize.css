@@ -12,7 +12,6 @@ img {
 }
 
 article p {
-    max-width: 800px;
     padding-right: 10px;
 }
 
@@ -36,6 +35,7 @@ article {
     vertical-align: top;
     padding-top: 40px;
     padding-left: 10px;
+    max-width: 850px;
 }
 
 figure {
