@@ -8,7 +8,7 @@ $(function(){
 	document.title += ' - ' + article.title;
 
 	$('article').prepend(
-	    '<span class="date">2015年01月14日 17時20分50秒</span><h1 class="title">'
+	    '<span class="date">2015年01月22日 13時00分00秒</span><h1 class="title">'
 		+ article.title
 		+ '</h1><figure class="thumb"><img src="images/'
 		+ article.thumb
