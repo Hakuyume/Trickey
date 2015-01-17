@@ -101,6 +101,11 @@ a {
     border: 1px solid #000;
 }
 
+.thumb .title {
+    height: 2.4em;
+    overflow: hidden;
+}
+
 .date {
     color: #6e59af;
     margin: 4px 0 4px 0;
