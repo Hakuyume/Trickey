@@ -20,11 +20,6 @@
 	"thumb": "pentab_image.png"
     },
     {
-	"name": "fullset",
-	"title": "時間切れにより実現しなかった幻の6x15フルセットボードユニット",
-	"thumb": "big_keyboard.png"
-    },
-    {
 	"name": "vim",
 	"title": "「Trickey」発、憎きvimを瞬殺する「Kill vim board」",
 	"thumb": "ignucius.png"
@@ -33,10 +28,5 @@
 	"name": "interview",
 	"title": "製作者に聞いた「Trickey」で苦労した10のこと",
 	"thumb": "main_1.JPG"
-    },
-    {
-	"name": "wot",
-	"title": "時間を忘れて出撃したくなる戦車アクション「World of Tanks」",
-	"thumb": "tanks.png"
     }
 ]
