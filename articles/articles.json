@@ -1,30 +1,36 @@
 [
     {
+	"tag": "概要",
 	"name": "about",
 	"title": "誰でも簡単にカスタマイズ可能なキーボード「Trickey」が登場",
 	"thumb": "main_1.JPG"
     },
     {
+	"tag": "説明",
 	"name": "demo",
 	"title": "組み換えキーボード「Trickey」を実際に使ってみた",
 	"thumb": "main_1.JPG"
     },
     {
+	"tag": "利用例",
 	"name": "game",
 	"title": "「Trickey」を使って自分だけのゲーミングキーボードを作ってみた",
 	"thumb": "game_3.JPG"
     },
     {
+	"tag": "利用例",
 	"name": "illust",
 	"title": "絵師たちに贈る「Trickey」でペンタブ環境をすっきりさせる方法",
 	"thumb": "pentab_image.png"
     },
     {
+	"tag": "利用例",
 	"name": "vim",
 	"title": "「Trickey」発、憎きvimを瞬殺する「Kill vim board」",
 	"thumb": "ignucius.png"
     },
     {
+	"tag": "苦労話",
 	"name": "interview",
 	"title": "製作者に聞いた「Trickey」で苦労した10のこと",
 	"thumb": "main_1.JPG"
