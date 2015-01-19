@@ -29,6 +29,27 @@ header {
     position: relative;
 }
 
+footer {
+    background: #fd0;
+}
+
+footer ul {
+    border-top: 1px solid #000;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    border: 1px solid #000;
+    background: #555;
+    color: #fff;
+    padding: 0.5em;
+    font-size: 0.9em;
+}
+
 article {
     background-color: #F9F9E5;
     display: table-cell;
@@ -141,4 +162,5 @@ a {
 
 .related li {
     font-weight: bold;
+    margin-bottom: 1.5em;
 }

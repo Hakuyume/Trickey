@@ -27,13 +27,19 @@
 	"tag": "利用例",
 	"name": "illust",
 	"title": "絵師たちに贈る「Trickey」でペンタブ環境をすっきりさせる方法",
-	"thumb": "pentab_image.png"
+	"thumb": "pentab_image.jpg"
+    },
+    {
+	"tag": "説明",
+	"name": "cost",
+	"title": "「Trickey」が低価格を実現できた理由",
+	"thumb": "coins.jpg"
     },
     {
 	"tag": "利用例",
 	"name": "vim",
 	"title": "「Trickey」発、憎きvimを瞬殺する「Kill vim board」",
-	"thumb": "ignucius.png"
+	"thumb": "ignucius.jpg"
     },
     {
 	"tag": "苦労話",
