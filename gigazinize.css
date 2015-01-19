@@ -135,6 +135,7 @@ a {
 .thumb .title {
     height: 2.4em;
     overflow: hidden;
+    word-break: break-all;
 }
 
 .date {
