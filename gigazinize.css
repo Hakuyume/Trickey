@@ -50,6 +50,12 @@ footer li {
     font-size: 0.9em;
 }
 
+footer .author {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
 article {
     background-color: #F9F9E5;
     display: table-cell;
