@@ -30,6 +30,12 @@
 	"thumb": "pentab_image.png"
     },
     {
+	"tag": "説明",
+	"name": "cost",
+	"title": "「Trickey」が低価格を実現できた理由",
+	"thumb": "coins.jpg"
+    },
+    {
 	"tag": "利用例",
 	"name": "vim",
 	"title": "「Trickey」発、憎きvimを瞬殺する「Kill vim board」",
