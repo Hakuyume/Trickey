@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+sup {
+    vertical-align: top;
+}
+
 img {
     margin: 0;
     padding: 0;
