@@ -107,6 +107,11 @@ a {
     background: #ffc;
 }
 
+.sidebar a:hover {
+    color: #fff;
+    background: #555;
+}
+
 .thumb {
     list-style-type: none;
     padding-left: 0px;
