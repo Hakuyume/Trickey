@@ -181,7 +181,7 @@ a {
     margin-bottom: 1.5em;
 }
 
-.related li:hover {
+.related a:hover {
     color: #fff;
     background: #555;
 }
