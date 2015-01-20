@@ -12,12 +12,6 @@
 	"thumb": "main_1.jpg"
     },
     {
-	"tag": "工夫",
-	"name": "connector",
-	"title": "「Trickey」のコネクタに隠されたショートを防止する工夫とは",
-	"thumb": "connector_5.jpg"
-    },
-    {
 	"tag": "利用例",
 	"name": "game",
 	"title": "「Trickey」を使って自分だけのゲーミングキーボードを作ってみた",
@@ -52,11 +46,5 @@
 	"name": "size",
 	"title": "「Trickey」キーユニットの小型化の歴史まとめ",
 	"thumb": "key_3.jpg"
-    },
-    {
-	"tag": "製作風景",
-	"name": "making",
-	"title": "もうやりたくねー....「Trickey」キーユニットの製作風景公開!!",
-	"thumb": "cat.png"
     }
 ]
