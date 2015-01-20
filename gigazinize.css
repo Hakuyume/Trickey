@@ -180,3 +180,8 @@ a {
     font-weight: bold;
     margin-bottom: 1.5em;
 }
+
+.related li:hover {
+    color: #fff;
+    background: #555;
+}
