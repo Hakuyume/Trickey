@@ -30,12 +30,6 @@
 	"thumb": "coins.jpg"
     },
     {
-	"tag": "利用例",
-	"name": "vim",
-	"title": "「Trickey」発、憎きvimを瞬殺する「Kill vim board」",
-	"thumb": "ignucius.jpg"
-    },
-    {
 	"tag": "工夫",
 	"name": "comm",
 	"title": "I<sup>2</sup>CのようでI<sup>2</sup>Cじゃない!?「Trickey」の通信を担う独自プロトコル",
@@ -46,5 +40,12 @@
 	"name": "size",
 	"title": "「Trickey」キーユニットの小型化の歴史まとめ",
 	"thumb": "key_3.jpg"
+    },
+    {
+	"tag": "利用例",
+	"name": "vim",
+	"title": "「Trickey」発、憎きvimを瞬殺する「Kill vim board」",
+	"thumb": "ignucius.jpg"
     }
+
 ]
