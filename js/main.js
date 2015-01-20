@@ -14,6 +14,11 @@ function getParam(){
     return params;
 }
 
+$.ajaxSetup({
+    mimeType: 'text/plain',
+    dataType: 'text'
+});
+
 $(function(){
     var params = getParam();
     var page = params.page;
