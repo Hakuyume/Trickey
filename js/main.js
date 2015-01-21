@@ -39,7 +39,7 @@ $(function(){
 
 	if (page){
 	    var article = articles.filter(function(entry){return entry.name == page;})[0];
-	    document.title = article.title + '- MECHAGINE';
+	    document.title = article.title + ' - MECHAGINE';
 
 	    $('article').append('<section class="content"></section>');
 	    $('article').append('<section class="related"></section>');
