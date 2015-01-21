@@ -39,7 +39,7 @@ $(function(){
 
 	if (page){
 	    var article = articles.filter(function(entry){return entry.name == page;})[0];
-	    document.title = article.title + ' - MECHAGINE';
+	    document.title = article.title.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'') + ' - MECHAGINE';
 
 	    $('article').append('<section class="content"></section>');
 	    $('article').append('<section class="related"></section>');
@@ -83,7 +83,7 @@ $(function(){
 		}
 	    });
 	}else{
-	    document.title += ' - ' + articles[0].title;
+	    document.title += ' - ' + articles[0].title.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'');
 
 	    $('article').append('<ul class="thumb"></ul>');
 
