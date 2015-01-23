@@ -39,7 +39,7 @@ $(function(){
 
 	if (page){
 	    var article = articles.filter(function(entry){return entry.name == page;})[0];
-	    document.title = 'MECHAGINE(メカジン) - ' + article.title;
+	    document.title = article.title.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'') + ' - MECHAGINE';
 
 	    $('article').append('<section class="content"></section>');
 	    $('article').append('<section class="related"></section>');
@@ -56,6 +56,19 @@ $(function(){
 
 	    $.get('articles/' + page + '.md', function(data){
 		$('.content').append(marked(data));
+		$('.content').append(
+		    '<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-count="none" data-hashtags="ビックリドッキリメカ">Tweet</a></p>'
+		);
+
+		!function(d, s, id){
+		    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+		    if (! d.getElementById(id)){
+			js = d.createElement(s);
+			js.id = id;
+			js.src = p + '://platform.twitter.com/widgets.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		    }
+		}(document, 'script', 'twitter-wjs');
 	    });
 
 	    articles.forEach(function(entry){
@@ -70,7 +83,7 @@ $(function(){
 		}
 	    });
 	}else{
-	    document.title += ' - ' + articles[0].title;
+	    document.title += ' - ' + articles[0].title.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'');
 
 	    $('article').append('<ul class="thumb"></ul>');
 
